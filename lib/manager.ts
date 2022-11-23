@@ -3,7 +3,7 @@ import {
   SocketOptions as EngineOptions,
   installTimerFunctions,
   nextTick,
-} from "engine.io-client";
+} from "@kingsds/engine.io-client";
 import { Socket, SocketOptions, DisconnectDescription } from "./socket.js";
 import * as parser from "socket.io-parser";
 import { Decoder, Encoder, Packet } from "socket.io-parser";

@@ -1,4 +1,4 @@
-import { parse } from "engine.io-client";
+import { parse } from "@kingsds/engine.io-client";
 import debugModule from "debug"; // debug()
 
 const debug = debugModule("socket.io-client:url"); // debug()
