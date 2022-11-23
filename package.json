@@ -34,7 +34,7 @@
   "dependencies": {
     "@socket.io/component-emitter": "~3.1.0",
     "debug": "^3.2.7",
-    "engine.io-client": "https://github.com/Distributed-Compute-Labs/socket.io-client.git",
+    "@kingsds/engine.io-client": "^6.2.3",
     "socket.io-parser": "~4.2.1"
   },
   "devDependencies": {
@@ -83,7 +83,7 @@
     "build": "rollup -c support/rollup.config.umd.js && rollup -c support/rollup.config.esm.js && rollup -c support/rollup.config.umd.msgpack.js",
     "format:check": "prettier --check \"*.js\" \"lib/**/*.ts\" \"test/**/*.ts\" \"support/**/*.js\"",
     "format:fix": "prettier --write \"*.js\" \"lib/**/*.ts\" \"test/**/*.ts\" \"support/**/*.js\"",
-    "xx-prepack": "npm run compile"
+    "prepack": "npm run compile"
   },
   "contributors": [
     {
