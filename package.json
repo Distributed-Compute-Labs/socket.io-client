@@ -83,7 +83,7 @@
     "build": "rollup -c support/rollup.config.umd.js && rollup -c support/rollup.config.esm.js && rollup -c support/rollup.config.umd.msgpack.js",
     "format:check": "prettier --check \"*.js\" \"lib/**/*.ts\" \"test/**/*.ts\" \"support/**/*.js\"",
     "format:fix": "prettier --write \"*.js\" \"lib/**/*.ts\" \"test/**/*.ts\" \"support/**/*.js\"",
-    "prepack": "npm run compile"
+    "xx-prepack": "npm run compile"
   },
   "contributors": [
     {
